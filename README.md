@@ -1,4 +1,4 @@
-# Mini Project 2 - School System
+# Mini Project 2 - School Management System
 
 This repository contains a simple School System implemented in Java and Python. The project is organized into two folders: `java` and `python`, each containing a file for the respective script.
 
