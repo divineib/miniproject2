@@ -1,6 +1,6 @@
 # Mini Project 2 - School System
 
-This repository contains a simple School System implemented in Java and Python. The project is organized into two folders: `java` and `python`, each containing a file for the respective programming language.
+This repository contains a simple School System implemented in Java and Python. The project is organized into two folders: `java` and `python`, each containing a file for the respective script.
 
 ## Java Folder
 
