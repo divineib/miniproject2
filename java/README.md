@@ -50,7 +50,6 @@ This is a simple School Management System implemented in Java. The system allows
 - The system saves and loads data from a file (`school_data.ser`) to maintain the state of students, teachers, and the school record between program runs.
 
 ### Flowchart
-![flowchart](/Users/divine/Downloads/Screenshot 2023-12-08 at 7.59.15 PM.png)  
-
+<img width="1452" alt="flowchart" src="https://github.com/divineib/miniproject2/assets/143463868/67289dc3-e272-4b1b-8322-40808d4b0d7b">
 
 I really tried and worked hard on this code, Thank you!
