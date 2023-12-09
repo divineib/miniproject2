@@ -51,8 +51,6 @@ This is a simple School Management System implemented in Python. The system allo
 
 I really tried and worked hard on this code, Thank you!
 
-### Flowchart
-![Link Name][(https://pasteboard.co/i2X921pJxrkV.png)  
 
 ```mermaid
 graph TD
