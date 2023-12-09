@@ -55,4 +55,15 @@ This is a simple School Management System implemented in Java. The system allows
 ### UML Diagram
 <img width="830" alt="umldiagram" src="https://github.com/divineib/miniproject2/assets/143463868/1980a1c0-47e8-4437-be6c-5336b7eef420">
 
+### Questions for Reflection and Discussion
+
+1. **How does the UML diagram help with planning in coding?**
+   The UML diagram is like a superhero map for coding. It shows all the cool characters (classes) and how they team up. This map helps us plan by making it easier to understand and talk about our code. It's like having a game plan for building something awesome!
+
+2. **Why is Object-Oriented Programming better than Project 1?**
+   Object-Oriented Programming (OOP) is like having magical building blocks for coding. In Project 1, we just put things together, but in OOP, we use these blocks (classes) that can do special tricks. We can reuse them, keep secrets (encapsulation), and even make new blocks based on existing ones (inheritance). It's like having a treasure chest of cool code tricks!
+
+3. **What cool tricks (Object-Oriented pillars) were used?**
+   The cool tricks are like rules we follow to make our code awesome. Encapsulation is like keeping secrets safe, so only the right parts are shown. Inheritance is like having a superhero family, where new heroes (classes) inherit powers from the main hero (base class). Polymorphism is a big word for saying things can change and do different tricks in different situations. These tricks make our code easy to understand and fun to work with!
+
 I really tried and worked hard on this code, Thank you!
