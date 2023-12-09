@@ -50,3 +50,43 @@ This is a simple School Management System implemented in Python. The system allo
 - The system saves and loads data from a file (`school_data.pkl`) to maintain the state of students, teachers, and the school record between program runs.
 
 I really tried and worked hard on this code, Thank you!
+
+### Flowchart
+![Link Name][(https://pasteboard.co/i2X921pJxrkV.png)  
+
+```mermaid
+graph TD
+  %% style %%
+  style A, B, MainLoop, Action, Enroll, AddStudent, DisplayTeachers, ViewCourses, SaveData, Hire, AddTeacher, UpdateGrade, Update, Filter, FilterStudents, ViewRecord, RecordType, ViewStudent, ViewTeacher, End defaultFontStyle font-size:20px;
+
+  A[Start] -->|Initialize| B(School)
+  B -->|Load Data| MainLoop
+  MainLoop -->|Menu Loop| Action{Action}
+  Action -->|Enroll Student| Enroll(Scanner)
+  Enroll -->|Input Student Info| AddStudent(Add Student)
+  AddStudent -->|Display Teachers| DisplayTeachers
+  DisplayTeachers -->|View Courses| ViewCourses
+  ViewCourses -->|Save Data| SaveData
+  SaveData -->|Repeat| MainLoop
+  Action -->|Hire Teacher| Hire(Scanner)
+  Hire -->|Input Teacher Info| AddTeacher(Add Teacher)
+  AddTeacher -->|View Courses| ViewCourses
+  ViewCourses -->|Save Data| SaveData
+  SaveData -->|Repeat| MainLoop
+  Action -->|Update Student Grade| UpdateGrade(Scanner)
+  UpdateGrade -->|Input Grade Info| Update(Update Grade)
+  Update -->|Save Data| SaveData
+  SaveData -->|Repeat| MainLoop
+  Action -->|Filter Students| Filter(Scanner)
+  Filter -->|Input Filter Info| FilterStudents(Filter Students)
+  FilterStudents -->|Save Data| SaveData
+  SaveData -->|Repeat| MainLoop
+  Action -->|View School Record| ViewRecord(Scanner)
+  ViewRecord -->|Input Record Type| RecordType{Record Type}
+  RecordType -->|View Student Changes| ViewStudent(View Student Changes)
+  ViewStudent -->|Repeat| MainLoop
+  RecordType -->|View Teacher Changes| ViewTeacher(View Teacher Changes)
+  ViewTeacher -->|Repeat| MainLoop
+  Action -->|Exit| End[End];
+
+```
