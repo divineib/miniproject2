@@ -53,6 +53,6 @@ This is a simple School Management System implemented in Java. The system allows
 <img width="1452" alt="flowchart" src="https://github.com/divineib/miniproject2/assets/143463868/67289dc3-e272-4b1b-8322-40808d4b0d7b">
 
 ### UML Diagram
-<img width="830" alt="umldiagram" src="https://github.com/divineib/miniproject2/assets/143463868d9289197-3114-4da4-90f8-ea278c77d99f">
+<img width="830" alt="umldiagram" src="https://github.com/divineib/miniproject2/assets/143463868/1980a1c0-47e8-4437-be6c-5336b7eef420">
 
 I really tried and worked hard on this code, Thank you!
