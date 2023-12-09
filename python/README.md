@@ -49,42 +49,23 @@ This is a simple School Management System implemented in Python. The system allo
 
 - The system saves and loads data from a file (`school_data.pkl`) to maintain the state of students, teachers, and the school record between program runs.
 
+### Flowchart
+
+<img width="1608" alt="flowchart" src="https://github.com/divineib/miniproject2/assets/143463868/2fd9c2d8-2eb1-4343-b6a0-77368e6a8b90">
+
+### UML Diagram
+
+<img width="797" alt="umldiagram" src="https://github.com/divineib/miniproject2/assets/143463868/817f04c4-5ae0-4422-8784-35bb8f26630a">
+
+### Questions for Reflection and Discussion
+
+1. **How does the UML diagram help with planning in coding?**
+   - The UML diagram is like a superhero map for coding. It shows all the cool characters (classes) and how they team up. This map helps us plan by making it easier to understand and talk about our code. It's like having a game plan for building something awesome!
+
+2. **Why is Object-Oriented Programming better than Project 1?**
+   - Object-Oriented Programming (OOP) is like having magical building blocks for coding. In Project 1, we just put things together, but in OOP, we use these blocks (classes) that can do special tricks. We can reuse them, keep secrets (encapsulation), and even make new blocks based on existing ones (inheritance). It's like having a treasure chest of cool code tricks!
+
+3. **What cool tricks (Object-Oriented pillars) were used?**
+   - The cool tricks are like rules we follow to make our code awesome. Encapsulation is like keeping secrets safe, so only the right parts are shown. Inheritance is like having a superhero family, where new heroes (classes) inherit powers from the main hero (base class). Polymorphism is a big word for saying things can change and do different tricks in different situations. These tricks make our code easy to understand and fun to work with!
+
 I really tried and worked hard on this code, Thank you!
-
-
-```mermaid
-graph TD
-  %% style %%
-  style A, B, MainLoop, Action, Enroll, AddStudent, DisplayTeachers, ViewCourses, SaveData, Hire, AddTeacher, UpdateGrade, Update, Filter, FilterStudents, ViewRecord, RecordType, ViewStudent, ViewTeacher, End defaultFontStyle font-size:20px;
-
-  A[Start] -->|Initialize| B(School)
-  B -->|Load Data| MainLoop
-  MainLoop -->|Menu Loop| Action{Action}
-  Action -->|Enroll Student| Enroll(Scanner)
-  Enroll -->|Input Student Info| AddStudent(Add Student)
-  AddStudent -->|Display Teachers| DisplayTeachers
-  DisplayTeachers -->|View Courses| ViewCourses
-  ViewCourses -->|Save Data| SaveData
-  SaveData -->|Repeat| MainLoop
-  Action -->|Hire Teacher| Hire(Scanner)
-  Hire -->|Input Teacher Info| AddTeacher(Add Teacher)
-  AddTeacher -->|View Courses| ViewCourses
-  ViewCourses -->|Save Data| SaveData
-  SaveData -->|Repeat| MainLoop
-  Action -->|Update Student Grade| UpdateGrade(Scanner)
-  UpdateGrade -->|Input Grade Info| Update(Update Grade)
-  Update -->|Save Data| SaveData
-  SaveData -->|Repeat| MainLoop
-  Action -->|Filter Students| Filter(Scanner)
-  Filter -->|Input Filter Info| FilterStudents(Filter Students)
-  FilterStudents -->|Save Data| SaveData
-  SaveData -->|Repeat| MainLoop
-  Action -->|View School Record| ViewRecord(Scanner)
-  ViewRecord -->|Input Record Type| RecordType{Record Type}
-  RecordType -->|View Student Changes| ViewStudent(View Student Changes)
-  ViewStudent -->|Repeat| MainLoop
-  RecordType -->|View Teacher Changes| ViewTeacher(View Teacher Changes)
-  ViewTeacher -->|Repeat| MainLoop
-  Action -->|Exit| End[End];
-
-```
